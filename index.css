@@ -1,0 +1,11 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container-fluid {
+    background-image: url(./image/backgound2.jpg)!important;
+    background-repeat: no-repeat !important;
+    background: cover!important;
+    
+
+}
