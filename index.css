@@ -4,15 +4,20 @@ body{
 }
 .landscape {
     
-  height: 640px;
-  width: 500px;
-  background: url(/image/backgound2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-image: url("./image/SAROVA-STANLEY.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 600px;
+    width: 100%;
+    background-position: bottom;
+
   margin: 0;
-    
-
-    
-
+}
+.picture img{
+  height: 400px;
+  width: 400px;
+}
+.inform{
+  padding: 0;
 }
