@@ -1,23 +1,55 @@
-body{
+*{
     padding: 0;
     margin: 0;
 }
-.landscape {
+.container-fluid{
+  padding-left: 0;
+}
+
+
+.landscape{
     
   background-image: url("./image/SAROVA-STANLEY.webp");
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
     height: 600px;
-    width: 100%;
+  width: 1400px;
     background-position: bottom;
-
+padding: 0;
   margin: 0;
 }
 .picture img{
   height: 400px;
   width: 400px;
 }
+.inform .logo{
+  background-color: rgba(240, 241, 243, 0.7);
+  z-index: 999;
+  height: 700px;
+}
+
 .inform{
-  padding: 0;
+  float: right;
+  
+}
+.inform ul{
+list-style: none;
+padding: 0 30px;
+}
+.inform ul li{
+  display: inline-block;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  margin: 0 10px; 
+  color: bisque;
+}
+.logo{
+  text-align: center;
+  padding: 200px;
+  font-size: 50px;
+
+}
+.logo{
+  position: center;
 }
