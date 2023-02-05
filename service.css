@@ -1,3 +1,9 @@
+.picture{
+background-image: url(./image/the-hotel-banner_.jpg);
+background-repeat: no-repeat;
+color: aliceblue;
+
+}
 .customerOne img{
     height: 300px;
     width: 300px;
@@ -8,4 +14,8 @@
     height: 300px;
     width: 300px;
     padding: 30px 30px 30px 15px;
+    
+  }
+  .logo2{
+    float: right;
   }

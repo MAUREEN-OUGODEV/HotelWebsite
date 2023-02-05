@@ -14,7 +14,7 @@
 
 .landscape{
     
-  background-image: url("./image/SAROVA-STANLEY.webp");
+  background-image: url("./image/the-hotel-banner_.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -25,12 +25,6 @@
     margin: 0;
     overflow: hidden;
     opacity: 70%;
-}
-
-.inform .l{
-  background-color: rgba(240, 241, 243, 0.7);
-  z-index: 999;
-  height: 700px;
 }
 
 .inform{
@@ -60,5 +54,6 @@ padding: 0 30px;
 
 .endpage img{
   padding-right:60px 60px 60px 60px;
+  
 }
 
