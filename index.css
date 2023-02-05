@@ -5,7 +5,12 @@
 .container-fluid{
   padding-left: 0;
 }
-
+.logo p{
+  color: antiquewhite;
+}
+.logo img{
+  color: antiquewhite;
+}
 
 .landscape{
     
@@ -13,17 +18,16 @@
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
-    height: 600px;
-  width: 1400px;
+    height: 650px;
+    width: 1346px;
     background-position: bottom;
-padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    opacity: 70%;
 }
-.picture img{
-  height: 400px;
-  width: 400px;
-}
-.inform .logo{
+
+.inform .l{
   background-color: rgba(240, 241, 243, 0.7);
   z-index: 999;
   height: 700px;
@@ -33,11 +37,11 @@ padding: 0;
   float: right;
   
 }
-.inform ul{
+.inform a{
 list-style: none;
 padding: 0 30px;
 }
-.inform ul li{
+.inform  a{
   display: inline-block;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 30px;
@@ -53,3 +57,8 @@ padding: 0 30px;
 .logo{
   position: center;
 }
+
+.endpage img{
+  padding-right:60px 60px 60px 60px;
+}
+
